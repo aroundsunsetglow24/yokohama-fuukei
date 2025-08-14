@@ -1,0 +1,523 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="lib/leaflet/leaflet.css" rel="stylesheet">
+    <script src="lib/leaflet/leaflet.js"></script>
+    <title>東海道名所之内横浜風景</title>
+
+    <style>
+        html,
+        body,
+        #map,
+        .map {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .map {
+            background-color: #000;
+            display: none;
+        }
+
+        .circle_kaikou_mae {
+            background-color: aqua;
+            border-color: blue;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_kaikou_chokugo {
+            background-color: yellow;
+            border-color: green;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_sunago {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+            border-color: black;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_edo {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+            border-color: purple;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_t53 {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+            border-color: green;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_ss {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+            border-color: orange;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_m53 {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+            border-color: olive;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_100edo {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+            border-color: yellow;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_f36 {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+            border-color: darkorange;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_at {
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+            border-color: blue;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_ym {
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+            border-color: green;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_yh {
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+            border-color: darkorange;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_ky {
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+            border-color: darkslategray;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .circle_ykk {
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+            border-color: purple;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        .square_tsh {
+            width: 10px;
+            height: 10px;
+            background-color: greenyellow;
+            border-color: #003300;
+            border-style: solid;
+            border-width: 2px;
+            opacity: 1;
+        }
+
+        #mapChanger {
+            position: absolute;
+            z-index: 99999;
+            top: 12px;
+            left: 50px;
+        }
+
+        .current-map {
+            display: block;
+        }
+
+        #mapChanger {
+            background-color: aquamarine;
+        }
+
+        #mapChanger option {
+            background-color: white;
+        }
+
+        .button {
+            text-align: left;
+            width: 300px;
+            background-color: rgb(201, 233, 183);
+            transform: rotate(0deg);
+        }
+
+        #help_sidebar_template {
+            display: none;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .help_sidebar_content {
+            display: none;
+        }
+
+        .credit_sidebar_content {
+            display: none;
+        }
+    </style>
+
+    <!-- Font Awesome for Leaflet -->
+    <link rel="stylesheet" href="css/leaflet.awesome-markers.css">
+    <script type="text/javascript" src="js/leaflet.awesome-markers.js"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- jquery UI -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- leaflet.responsive.popup -->
+    <link rel="stylesheet" href="css/leaflet.responsive.popup.css">
+    <script src="js/leaflet.responsive.popup.js"></script>
+
+    <!-- leaflet-sidebar -->
+    <link rel="stylesheet" href="css/L.Control.Sidebar.css">
+    <script src="js/L.Control.Sidebar.js"></script>
+
+    <!-- leaflet-rrose -->
+    <link rel="stylesheet" href="css/leaflet.rrose.css" />
+    <script src="js/leaflet.rrose-src.js"></script>
+
+    <!-- polyfill -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
+
+    <!-- leaflet-bing-layer -->
+    <script src="js/leaflet-bing-layer.js"></script>
+
+    <!-- Leaflet.Control.Appearance -->
+    <script src="js/L.Control.Appearance.js"></script>
+
+    <!-- local -->
+    <script src="js/shared.js"></script>
+
+</head>
+
+<body ontouchstart="">
+    <select id="mapChanger" onchange="onMapChange(event);">
+        <option value="map_1656_ysk_mae">1656_吉田新田埋立開墾前横浜図</option>
+        <option value="map_1851_ymkz">1851_横浜村並近傍之図</option>
+        <!--<option value="map_1859_ykm">1859_横浜開港見分図</option>-->
+        <option value="map_1854_by">1854_BAY OF YEDO</option>
+        <option value="map_1859_ykjz">1859_横浜開港地割之図</option>
+        <option value="map_1859_gkyzz" style="color:black; background-color: rgb(201, 233, 183);">1859_御開港横浜之全図</option>
+        <option value="map_1860_tyf" style="color:black; background-color: rgb(201, 233, 183);" selected>
+            1860_東海道名所之内横浜風景</option>
+        <option value="map_1860_ymi" style="color:black; background-color: rgb(201, 233, 183);">1860_横浜名所一覧（海岸）</option>
+        <!--<option value="map_1861_gkyz">1861_御開港横濱之図</option>-->
+        <option value="map_1861_syf" style="color:black; background-color: rgb(201, 233, 183);">1861_再改横浜風景</option>
+        <option value="map_1865_gkyzz" style="color:black; background-color: rgb(201, 233, 183);">1865_御開港横浜之全図</option>
+        <!--<option value="map_1868_ymzz">1868_横濱明細全図</option>-->
+        <option value="map_now" style="color:black; background-color: rgb(201, 233, 183);">現在</option>
+    </select>
+    <button id="help_button" style="position:absolute;top:80px;left: 15px;z-index: 9999;">?</button>
+    <!--<button id="credit_button" style="position:absolute;top:110px;left: 15px;z-index: 9999;">©</button>-->
+
+    <div id="help_sidebar_template" style="padding-top:20px;">
+        <div class="help_sidebar_content">
+
+            <h3> 横浜開港時の様子を古地図と浮世絵を通して眺める </h3>
+            <p></p>
+            <p></p>
+            <p style="border:1px solid red">本説明は初回のみ表示されます。<br>画面左上の？をクリックすると再表示されます。<br></p>
+            <p></p>
+
+            <h3 class="underline"> このデジタルマップについて </h3>
+            <p>五雲亭貞秀をはじめとする浮世絵師が横浜開港当時の様子を鳥瞰図や錦絵等に残しています。本デジタルマップでは、個々の錦絵等の描かれた場所を可能な限り特定し、鳥瞰図上にプロットしてみました。また、痕跡が全く残っていないにしろ今のどこに当たるかを把握するため、現在のマップにもプロットしてみました。
+            </p>
+            <p> 横浜は、１６０年ほど前の安政６年６月２日（１８５９年７月１日）、函館、長崎と共に日本最初の国際貿易港として開港し、急速に発展、拡大していきました。しかし、慶応2年10月20日（1866年11月26日）に発生した慶応の大火により、日本人居住区の3分の2、外国人居住区の4分の1が消失してしまいました。大火後の復旧においては、従来の木造からレンガや石造りに建て替えられて行きました。
+            </p>
+            <p> 本マップでは、吉田新田の埋立開墾前から開港を経て、慶応の大火の前までの期間で、横浜が変貌していく様子を追ってみました。 </p>
+            <h3 class="underline">基本操作</h3>
+            <h4>ヘルプの表示</h4>
+            <p>
+                画面左上の？マークのボタンをクリックすると本説明がサイドパネルに表示されます。
+            </p>
+            <h4>ズームイン／ズームアウト</h4>
+            <p>マウスホイール、または画面左上の＋または－ボタンの操作で、画面のズームイン／ズームアウトが行えます。</p>
+
+            <h4>表示位置の移動</h4>
+            <p>マップ上でマウスをドラッグしながら移動することで、表示位置を移動できます。</p>
+
+            <h4>ポップアップ表示</h4>
+            <p>
+                マップ上の丸、四角、一部の線の上ににマウスを当てると、文字あるいは画像がポップアップします。<br>
+                ポップアップした画像をクリックすると大きな画像がブラウザの別タグに表示されます。<br>
+            <p style="border:1px solid blue">ブラウザにImage Viewerの拡張機能をインストールしておくと、大きな画像のズーム等の操作性が向上します。<br></p>
+
+            ポップアップの下部に薄緑色のボタンが表示される場合、クリックするとボタンに名称が表示されているマップの対応位置にジャンプします。
+            </p>
+
+            <h4>レイヤーの表示／非表示</h4>
+            <p>
+                画面右上のアイコンにマウスを当てるとレイヤーの一覧が表示されます。<br>
+                チェックボックスのオン／オフで表示／非表示の切り替えができます。
+            </p>
+            <h4>他のマップへの切り替え</h4>
+            <p>左上のプルダウンメニューで表示するマップの切り替えができます。
+            </p>
+            <h4>ベースマップの切り替えと古地図等の重ね合わせ<br>（現在のマップのみ）</h4>
+            <p>ベースマップを地理院地図、迅速測図等に切り替えることができます。<br>
+
+                ベースマップ上に、迅速測図、 色別標高図、陰影起伏図を任意の透過度で重ね合わせができます。<br>
+                ベースマップ上に、迅速測図の海岸線を重ねることができます。
+            </p>
+        </div>
+        <div class="credit_sidebar_content">
+            Made in 🇯🇵
+        </div>
+    </div>
+
+    <div id="map_1656_ysk_mae" class="map"></div>
+    <div id="sidebar_1656_ysk_mae">
+        <p></p>
+    </div>
+
+    <div id="map_1851_ymkz" class="map"></div>
+    <div id="sidebar_1851_ymkz">
+        <p></p>
+    </div>
+    <!--
+    <div id="map_1859_ykm" class="map"></div>
+    <div id="sidebar_1859_ykm">
+        <p></p>
+    </div>
+    -->
+    <div id="map_1854_by" class="map"></div>
+    <div id="sidebar_1854_by">
+        <p></p>
+    </div>
+    <div id="map_1859_ykjz" class="map"></div>
+    <div id="sidebar_1859_ykjz">
+        <p></p>
+    </div>
+    <div id="map_1859_gkyzz" class="map"></div>
+    <div id="sidebar_1859_gkyzz">
+        <p></p>
+    </div>
+    <div id="map_1860_tyf" class="map current-map"></div>
+    <div id="sidebar_1860_tyf">
+        <p></p>
+    </div>
+    <div id="map_1860_ymi" class="map"></div>
+    <div id="sidebar_1860_ymi">
+        <p></p>
+    </div>
+    <!--
+    <div id="map_1861_gkyz" class="map"></div>
+    <div id="sidebar_1861_gkyz">
+        <p></p>
+    </div>
+    -->
+    <div id="map_1861_syf" class="map"></div>
+    <div id="sidebar_1861_syf">
+        <p></p>
+    </div>
+    <div id="map_1865_gkyzz" class="map"></div>
+    <div id="sidebar_1865_gkyzz">
+        <p></p>
+    </div>
+    <!--
+    <div id="map_1868_ymzz" class="map"></div>
+    <div id="sidebar_1868_ymzz">
+        <p></p>
+    </div>
+    -->
+    <div id="map_now" class="map"></div>
+    <div id="sidebar_now">
+        <p></p>
+    </div>
+
+    <script src="./js/map_1656_ysk_mae.js"></script>
+
+    <script src="./js/map_1851_ymkz.js"></script>
+    <!--<script src="./js/map_1859_ykm.js"></script>-->
+    <script src="./js/map_1854_by.js"></script>
+    <script src="./js/map_1859_ykjz.js"></script>
+    <script src="./js/map_1859_gkyzz.js"></script>
+    <script src="./js/map_1860_tyf.js"></script>
+    <script src="./js/map_1860_ymi.js"></script>
+    <!--<script src="./js/map_1861_gkyz.js"></script>-->
+    <script src="./js/map_1861_syf.js"></script>
+    <script src="./js/map_1865_gkyzz.js"></script>
+    <!--<script src="./js/map_1868_ymzz.js"></script>-->
+    <script src="./js/map_now_u.js"></script>
+
+
+    <script src="js/attribution.js"></script>
+
+    <script>
+        $(function () {
+            var sidebars = [];
+
+            var options = $("#mapChanger")[0].options;
+            for (var i = 0; i < options.length; i++) {
+                var cln = $("#help_sidebar_template")[0].cloneNode(true);
+                var mapRef = options[i].value;
+
+                cln.id = mapRef + "_sidebar";
+
+                $("body").append(cln);
+
+                var sidebar = L.control.sidebar(cln.id, {
+                    position: 'right'
+                });
+
+                window[mapRef].addControl(sidebar);
+                sidebars.push(sidebar);
+            }
+
+            $("#help_button").click(function () {
+                $(".help_sidebar_content").show();
+                $(".credit_sidebar_content").hide();
+                for (var i = 0; i < sidebars.length; i++) {
+                    sidebars[$("#mapChanger")[0].selectedIndex].show();
+                    //sidebars[i].toggle();
+                }
+            });
+
+            $("#credit_button").click(function () {
+                $(".help_sidebar_content").hide();
+                $(".credit_sidebar_content").show();
+                for (var i = 0; i < sidebars.length; i++) {
+                    sidebars[$("#mapChanger")[0].selectedIndex].show();
+                    //sidebars[i].toggle();
+                }
+            });
+
+            var isHelpShown = localStorage.getItem("isHelpShown");
+            if (isHelpShown == null) {
+                $("#help_button").click();
+                localStorage.setItem("isHelpShown", true);
+            }
+
+            var queryParams = new URLSearchParams(window.location.search);
+            if (queryParams.has("start")) {
+                var mapId = queryParams.get("start");
+                if ($("#mapChanger option[value=" + mapId + "]").length === 1) {
+                    $("#mapChanger").val(mapId);
+                    $("#mapChanger").change();
+                }
+            }
+        });
+
+        function onMapChange(e) {
+            $(".map").removeClass("current-map");
+            $("#" + e.target.value).addClass("current-map");
+            setTimeout(function () {
+                window[e.target.value].invalidateSize();
+            }, 100);
+        }
+
+        function gotoMap(mapId, lat, lon, zoom, markerContent, originalMapInfo) {
+            $("#mapChanger").val(mapId);
+            $(".map").removeClass("current-map");
+            $("#" + mapId).addClass("current-map");
+
+            setTimeout(function () {
+                var panTimeout = 0;
+                window[mapId].invalidateSize();
+                if (zoom != null) {
+                    window[mapId].setZoom(zoom);
+                    panTimeout = 300;
+                }
+                setTimeout(function () {
+                    window[mapId].panTo(new L.LatLng(lat, lon));
+
+                    if (markerContent != null) {
+                        // var marker = L.marker([lat, lon]).addTo(window[mapId]);
+
+                        var content = decodeURIComponent(escape(atob(markerContent)));
+                        if (originalMapInfo != null) {
+                            var mapInfo = JSON.parse(atob(originalMapInfo));
+                            content += "<button class='button' onclick='gotoMap(\"" + mapInfo.mapId + "\", " + mapInfo.lat + ", " + mapInfo.lon + ")'>Go Back</button>"
+                        }
+
+                        var popup = L.responsivePopup({ hasTip: false })
+                            .setLatLng(new L.LatLng(lat, lon))
+                            .openOn(window[mapId])
+                            .setContent(content);
+                        // marker.bindPopup(popup);
+                    }
+                }, panTimeout);
+            }, 100);
+        }
+
+    </script>
+</body>
+
+</html>

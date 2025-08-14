@@ -1,0 +1,1958 @@
+ {
+   "type": "FeatureCollection",
+   "features": [{
+       "type": "Feature",
+       "properties": {
+         "id": "1",
+         "name": "WESTERN SHORE of the BAY OF YEDO<br>（江戸湾西岸の海図）",
+         "description": "アメリカ合衆国海軍提督のM.C.ペリーの指令に基づき1853～1854年の日本遠征に参加したWm.L.モーリー大尉と他の将校により測量された。<br> ",
+         "style": {
+           "fillColor": "#FFEE58",
+           "fillOpacity": 0.3,
+           "color": "#FFEE58",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [21.81, -24.02],
+             [27.85, -24.02],
+             [27.85, -26.44],
+             [21.81, -26.44]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "1",
+         "name": "COMMODORE M.C.PERRY U.S.N.<br>（ペリー米国海軍提督）",
+         "description": "",
+         "style": {
+           "fillColor": "#FFEE58",
+           "fillOpacity": 0.3,
+           "color": "#ff0",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [21.35, -27.11],
+             [28.30, -27.11],
+             [28.30, -27.63],
+             [21.35, -27.63]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "1",
+         "name": "Lieut Wm.L.Maurey<br>（Wm.L.モーリー大尉）",
+         "description": "",
+         "style": {
+           "fillColor": "#FFEE58",
+           "fillOpacity": 0.3,
+           "color": "#FFEE58",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [23.83, -28.23],
+             [25.54, -28.23],
+             [25.54, -28.50],
+             [23.83, -28.50]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "1",
+         "name": "JAPAN EXPEDITION<br>（日本遠征）",
+         "description": "",
+         "style": {
+           "fillColor": "#FFEE58",
+           "fillOpacity": 0.3,
+           "color": "#FFEE58",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [22.89, -29.21],
+             [26.57, -29.21],
+             [26.57, -29.58],
+             [22.89, -29.58]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "1",
+         "name": "SAILLING DIRECTIONS（航行案内）",
+         "description": "　南からこの湾に向かう船舶は、江戸湾の外に連なる島々の西側を通過し、深く湾曲した河津湾（相模湾）を浦賀水道の入口と間違わなないよう注意が必要である。<br>この湾の北東には海岸から数マイル離れた岩礁があり、相模岬（劒崎）から西北西に１０マイルの位置にある。我が艦隊の一隻（マセドニアン号）がここで座礁した。<br>正確な海図を持たないよそ者が、この間違いを犯すのは当然である。なぜなら、この位置からは、少し離れている水道の開口部が見えず、海岸が途切れなく続いているように見えるからだ。<br>この水道の入口は大島の中心からＮＥ1/2Ｅ（北から東に50.625°）の方向に２５マイルほど進んだ位置にある。相模岬（劒崎）の北方のサドル丘（尾根の鞍部）は、本水道の東側にある丸い黒い隆起した地形（Cone Hill）と同様に、容易に認識できる。<br>浦賀に近づくと、プリマウス岩礁がはっきりと見える。この岩礁から半マイルは離れるように。わずか１尋（6フィート＝1.8288メートル）の水面下に岩が沈んでいて、本水道で唯一の危険とされているインガソール浅瀬を避けるために必要である。<br>　プリマウス岩礁と観音崎との間は、非常な速さで観音崎の周りを巡る強い潮流を避けるために、うまく入ることに注意を払えば、海底に障害物はなく、碇泊にもよい。<br>　観音崎の南側には少し砂嘴が伸びているが、北側は海岸が険しく、水深も非常に深い。",
+         "style": {
+           "fillColor": "#FFEE58",
+           "fillOpacity": 0.3,
+           "color": "#FFEE58",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [19.99, -30.88],
+             [29.99, -30.88],
+             [29.99, -36.69],
+             [19.99, -36.69]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "1",
+         "name": "Perry I.W.<br>（ペリー島／猿島　西）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [19.73, -38.69],
+             [20.18, -38.69],
+             [20.18, -38.81],
+             [19.73, -38.81]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "2",
+         "name": "Mt. Fusee（富士山）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [23.46, -38.69],
+             [23.88, -38.69],
+             [23.88, -38.81],
+             [23.46, -38.81]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "3",
+         "name": "Webster I. N.W. by W<br>（ウェブスター島／夏島　北西微西）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [25.36, -38.69],
+             [26.26, -38.69],
+             [26.26, -38.81],
+             [25.36, -38.81]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "4",
+         "name": "Uraga（浦賀）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [19.59, -40.63],
+             [19.98, -40.64],
+             [19.98, -40.77],
+             [19.59, -40.77]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "5",
+         "name": "Cape Kamisaki（観音崎）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [27.68, -40.63],
+             [28.58, -40.63],
+             [28.58, -40.77],
+             [27.68, -40.77]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "6",
+         "name": "Saddle N.E.3/4N.<br>（尾根の鞍部　北西3/4北）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [23.26, -41.95],
+             [24.19, -41.95],
+             [24.19, -42.07],
+             [23.26, -42.07]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "7",
+         "name": "C. Sagami N.E.3/4E.<br>相模岬／劒崎　北東3/4東",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [27.28, -41.95],
+             [28.36, -41.95],
+             [28.36, -42.07],
+             [27.28, -42.07]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "11",
+         "name": "SAGAMI（相模）",
+         "description": "",
+         "style": {
+           "fillColor": "#74ce46",
+           "fillOpacity": 0.3,
+           "color": "#74ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [2.57, -28.94],
+             [3.26, -31.33],
+             [4.32, -33.28],
+             [5.47, -35.23],
+             [6.34, -37.44],
+             [6.57, -40.05],
+             [5.89, -40.05],
+             [5.60, -37.63],
+             [4.82, -35.56],
+             [3.70, -33.65],
+             [2.59, -31.56],
+             [2.03, -29.25]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "8",
+         "name": "AWA（安房）",
+         "description": "",
+         "style": {
+           "fillColor": "#74ce46",
+           "fillOpacity": 0.3,
+           "color": "#74ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [14.93, -41.47],
+             [16.55, -39.66],
+             [17.73, -37.45],
+             [18.47, -37.74],
+             [17.24, -40.08],
+             [15.47, -42.05]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "8",
+         "name": "KADSUSA（上総）",
+         "description": "",
+         "style": {
+           "fillColor": "#74ce46",
+           "fillOpacity": 0.3,
+           "color": "#74ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [18.98, -31.74],
+             [18.97, -29.15],
+             [19.13, -27.05],
+             [19.55, -24.97],
+             [20.11, -22.92],
+             [20.93, -20.97],
+             [22.00, -18.71],
+             [22.59, -18.99],
+             [21.49, -21.20],
+             [20.74, -23.10],
+             [20.17, -25.11],
+             [19.82, -27.17],
+             [19.66, -29.18],
+             [19.60, -31.80]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "10",
+         "name": "MUSASI（武蔵）",
+         "description": "",
+         "style": {
+           "fillColor": "#74ce46",
+           "fillOpacity": 0.3,
+           "color": "#74ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [4.61, -12.51],
+             [6.70, -11.14],
+             [8.30, -9.66],
+             [9.57, -7.87],
+             [10.46, -5.82],
+             [11.13, -3.39],
+             [11.74, -3.59],
+             [11.06, -6.09],
+             [10.15, -8.19],
+             [8.78, -10.06],
+             [7.14, -11.67],
+             [4.86, -13.06]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "8",
+         "name": "SIMOSA（下総）",
+         "description": "",
+         "style": {
+           "fillColor": "#74ce46",
+           "fillOpacity": 0.3,
+           "color": "#74ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [22.23, -1.56],
+             [24.05, -1.95],
+             [25.56, -2.54],
+             [26.95, -3.27],
+             [28.30, -4.18],
+             [29.67, -5.42],
+             [29.34, -5.87],
+             [28.02, -4.66],
+             [26.70, -3.74],
+             [25.32, -3.04],
+             [23.85, -2.48],
+             [22.14, -2.08]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "9",
+         "name": "CITY OF YEDO（江戸）",
+         "description": "",
+         "style": {
+           "fillColor": "#b8ce46",
+           "fillOpacity": 0.3,
+           "color": "#b8ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [12.35, -4.14],
+             [12.57, -3.73],
+             [12.77, -3.44],
+             [13.00, -3.14],
+             [13.39, -2.71],
+             [13.63, -2.49],
+             [14.15, -2.13],
+             [14.45, -1.97],
+             [14.81, -1.80],
+             [15.28, -1.64],
+             [15.41, -1.89],
+             [14.92, -2.12],
+             [14.60, -2.26],
+             [14.29, -2.40],
+             [13.82, -2.74],
+             [13.60, -2.94],
+             [13.23, -3.34],
+             [13.01, -3.61],
+             [12.82, -3.88],
+             [12.57, -4.26]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "12",
+         "name": "SINAGAWA（品川）",
+         "description": "",
+         "style": {
+           "fillColor": "#b8ce46",
+           "fillOpacity": 0.3,
+           "color": "#b8ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [11.41, -6.25],
+             [12.53, -6.25],
+             [12.53, -6.67],
+             [11.41, -6.67]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "13",
+         "name": "KAWASAKI（川崎）",
+         "description": "",
+         "style": {
+           "fillColor": "#b8ce46",
+           "fillOpacity": 0.3,
+           "color": "#b8ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [10.17, -9.47],
+             [11.39, -9.47],
+             [11.39, -9.87],
+             [10.17, -9.87]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "14",
+         "name": "KANAGAWA（神奈川）",
+         "description": "",
+         "style": {
+           "fillColor": "#b8ce46",
+           "fillOpacity": 0.3,
+           "color": "#b8ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [3.11, -14.85],
+             [4.22, -15.03],
+             [4.15, -15.23],
+             [3.08, -15.06]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "15",
+         "name": "YOKUHAMA（横浜）",
+         "description": "",
+         "style": {
+           "fillColor": "#b8ce46",
+           "fillOpacity": 0.3,
+           "color": "#b8ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [4.65, -17.70],
+             [5.64, -17.70],
+             [5.64, -17.89],
+             [4.65, -17.89]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "16",
+         "name": "URAGA（浦賀）",
+         "description": "",
+         "style": {
+           "fillColor": "#b8ce46",
+           "fillOpacity": 0.3,
+           "color": "#b8ce46",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [8.34, -33.86],
+             [9.20, -33.86],
+             [9.20, -34.22],
+             [8.34, -34.22]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "30",
+         "name": "Pt. Sakoura",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [2.38, -40.92],
+             [3.45, -40.50],
+             [3.65, -40.97],
+             [2.66, -41.44]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "29",
+         "name": "CAPE SAGAMI（サガミ岬／剱崎）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [7.00, -40.91],
+             [8.50, -40.91],
+             [8.50, -41.38],
+             [7.00, -41.38]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "28",
+         "name": "Ingersol Patch（インガソル浅瀬）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [10.79, -36.92],
+             [11.51, -36.92],
+             [11.51, -37.06],
+             [10.79, -37.06]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "28",
+         "name": "Plymouth Rk.（プリマス岩）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [9.74, -36.89],
+             [10.35, -36.89],
+             [10.35, -37.10],
+             [9.74, -37.10]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "28",
+         "name": "GORAHAMA",
+         "description": "久里浜",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [8.59, -36.20],
+             [9.61, -36.25],
+             [9.60, -36.49],
+             [8.59, -36.46]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "28",
+         "name": "RECEPTION BAY",
+         "description": "レセプション湾（久里浜湾）",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [8.94, -36.00],
+             [10.08, -36.00],
+             [10.08, -36.17],
+             [8.94, -36.17]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "27",
+         "name": "Round Hill（ラウンド・ヒル／丸い丘）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [9.47, -35.19],
+             [10.15, -35.19],
+             [10.15, -35.33],
+             [9.47, -35.33]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "26",
+         "name": "Monument（モニュメント）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [9.60, -34.69],
+             [10.19, -34.69],
+             [10.19, -34.79],
+             [9.60, -34.79]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "25",
+         "name": "CAPE KAMISAKI（観音崎）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [11.90, -32.42],
+             [13.31, -32.42],
+             [13.31, -32.62],
+             [11.90, -32.62]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "Pt. Rubicon（ルビコン岬／旗山崎）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [10.89, -31.54],
+             [11.60, -31.54],
+             [11.60, -31.69],
+             [10.89, -31.69]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "SUSQUEHANNA BAY（サスケハナ湾）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [9.05, -30.80],
+             [11.99, -30.80],
+             [11.99, -31.09],
+             [9.05, -31.09]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "PERRY ID.（ペリー島／猿島）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [8.69, -30.15],
+             [9.37, -30.15],
+             [9.37, -30.30],
+             [8.69, -30.30]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "Temple（寺）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.57, -29.56],
+             [7.06, -29.57],
+             [7.06, -29.79],
+             [6.57, -29.79]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "Powhatan Bay（ポーハタン湾／深浦湾）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.5,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.10, -28.37],
+             [5.85, -28.26],
+             [5.86, -28.43],
+             [5.10, -28.54]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "WEBSTER ID（ウェブスター島／夏島）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.56, -27.22],
+             [6.27, -27.22],
+             [6.27, -27.37],
+             [5.56, -27.37]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "GOLD SBOROUGH INLET<br>（ゴールズボロー湾／平潟湾）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [2.09, -25.58],
+             [3.63, -25.59],
+             [3.61, -25.85],
+             [3.06, -26.09],
+             [2.52, -26.09],
+             [2.09, -25.85]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "24",
+         "name": "MISSISSIPPI BAY<br>（ミシシッピ湾／根岸湾）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [4.22, -21.19],
+             [4.82, -21.28],
+             [6.96, -21.28],
+             [6.96, -21.50],
+             [4.76, -21.47],
+             [4.17, -21.39]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "23",
+         "name": "Treaty Point<br>（条約岬／本牧岬）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.84, -19.48],
+             [6.66, -19.49],
+             [6.66, -19.71],
+             [5.84, -19.71]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "22",
+         "name": "Haycock<br>（ヘイコック（干し草）／本牧十二天）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.90, -18.88],
+             [6.47, -18.88],
+             [6.47, -19.03],
+             [5.90, -19.03]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "21",
+         "name": "Mandarin Bluff<br>（マンダリンブラフ）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.45, -18.67],
+             [6.38, -18.67],
+             [6.38, -18.82],
+             [5.45, -18.82]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "20",
+         "name": "Treaty House（条約館）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [4.61, -17.42],
+             [5.19, -17.42],
+             [5.19, -17.61],
+             [4.61, -17.61]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "20",
+         "name": "YOKUHAMA BAY（横浜湾）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.56, -16.60],
+             [7.42, -16.62],
+             [7.41, -16.74],
+             [5.54, -16.72]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "19",
+         "name": "Temple（寺）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [4.76, -14.51],
+             [5.15, -14.51],
+             [5.14, -14.63],
+             [4.75, -14.64]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "18",
+         "name": "Wooded Bluff（樹木が茂った崖）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.98, -12.59],
+             [7.81, -12.59],
+             [7.81, -12.75],
+             [6.98, -12.75]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "17",
+         "name": "Beacon（ビーコン）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [12.01, -10.44],
+             [12.54, -10.44],
+             [12.54, -10.63],
+             [12.01, -10.63]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "17",
+         "name": "Cone Hill（円錐状の丘）",
+         "description": "",
+         "style": {
+           "fillColor": "#ff6600",
+           "fillOpacity": 0.3,
+           "color": "#ff6600",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [18.70, -25.93],
+             [19.18, -25.93],
+             [19.18, -26.08],
+             [18.70, -26.08]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "8",
+         "name": "URAGA CHANNEL（浦賀水道）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [10.06, -40.62],
+             [10.79, -39.66],
+             [11.28, -38.95],
+             [11.72, -38.24],
+             [12.12, -37.48],
+             [12.48, -36.58],
+             [12.78, -35.87],
+             [13.03, -35.07],
+             [13.32, -34.27],
+             [13.42, -33.42],
+             [13.56, -32.61],
+             [13.66, -31.73],
+             [13.76, -30.60],
+             [14.44, -30.63],
+             [14.42, -31.79],
+             [14.30, -32.68],
+             [14.16, -33.54],
+             [13.98, -34.50],
+             [13.77, -35.31],
+             [13.46, -36.13],
+             [13.22, -36.95],
+             [12.81, -37.76],
+             [12.38, -38.55],
+             [11.93, -39.35],
+             [11.36, -40.11],
+             [10.72, -41.17]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "31",
+         "name": "Mississippi（ミシシッピ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [10.02, -36.54],
+             [10.53, -36.54],
+             [10.53, -36.64],
+             [10.02, -36.64]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "32",
+         "name": "Susquehanna（サスケハナ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [10.18, -36.28],
+             [10.78, -36.28],
+             [10.78, -36.39],
+             [10.18, -36.39]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "33",
+         "name": "Plymouth（プリマス号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [11.65, -34.65],
+             [12.08, -34.65],
+             [12.08, -34.78],
+             [11.65, -34.78]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "34",
+         "name": "Mississippi（ミシシッピ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [11.78, -34.52],
+             [12.28, -34.52],
+             [12.28, -34.64],
+             [11.78, -34.64]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "35",
+         "name": "Susquehanna（サスケハナ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [12.12, -34.10],
+             [12.71, -34.10],
+             [12.71, -34.19],
+             [12.12, -34.19]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "36",
+         "name": "Saratoga（サラトガ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [12.30, -33.95],
+             [12.72, -33.95],
+             [12.72, -34.06],
+             [12.30, -34.06]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "37",
+         "name": "Saratoga Spit（サラトガ砂嘴）",
+         "description": "",
+         "style": {
+           "fillColor": "#bf00ff",
+           "fillOpacity": 0.3,
+           "color": "#bf00ff",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [11.82, -27.77],
+             [12.66, -27.77],
+             [12.66, -27.90],
+             [11.82, -27.90]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "38",
+         "name": "American Anchorage（アメリカン碇泊地）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.1,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [4.89, -25.43],
+             [8.17, -25.43],
+             [8.17, -26.61],
+             [4.89, -26.61]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "38",
+         "name": "Lexington（レキシントン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.37, -26.44],
+             [6.83, -26.44],
+             [6.83, -26.53],
+             [6.37, -26.53]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "39",
+         "name": "Southampton（サザンプトン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.65, -26.31],
+             [6.22, -26.31],
+             [6.22, -26.40],
+             [5.65, -26.40]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "40",
+         "name": "Vandalia（ヴァンダリア号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.55, -26.19],
+             [6.95, -26.19],
+             [6.95, -26.26],
+             [6.55, -26.26]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "41",
+         "name": "Powhatan（ポーハタン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.65, -25.98],
+             [7.09, -25.98],
+             [7.09, -26.05],
+             [6.65, -26.05]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "35",
+         "name": "Susquehanna（サスケハナ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.47, -25.81],
+             [7.09, -25.81],
+             [7.09, -25.88],
+             [6.47, -25.88]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "34",
+         "name": "Mississippi（ミシシッピ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [5.89, -25.59],
+             [6.41, -25.59],
+             [6.41, -25.68],
+             [5.89, -25.68]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "34",
+         "name": "Macedonian（マケドニアン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.63, -25.45],
+             [7.17, -25.45],
+             [7.17, -25.52],
+             [6.63, -25.52]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "38",
+         "name": "Lexington（レキシントン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.51, -17.16],
+             [6.94, -17.16],
+             [6.94, -17.25],
+             [6.51, -17.25]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "35",
+         "name": "Susquehanna（サスケハナ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.43, -17.00],
+             [7.04, -17.00],
+             [7.04, -17.08],
+             [6.43, -17.08]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "41",
+         "name": "Powhatan（ポーハタン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.32, -16.86],
+             [6.76, -16.86],
+             [6.76, -16.94],
+             [6.32, -16.94]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "34",
+         "name": "Macedonian（マケドニアン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.31, -16.75],
+             [6.82, -16.75],
+             [6.82, -16.84],
+             [6.31, -16.84]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "34",
+         "name": "Mississippi（ミシシッピ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.25, -16.47],
+             [6.39, -16.50],
+             [6.60, -16.46],
+             [6.73, -16.46],
+             [6.71, -16.54],
+             [6.56, -16.55],
+             [6.38, -16.56],
+             [6.23, -16.55]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "39",
+         "name": "Southampton（サザンプトン号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.24, -16.34],
+             [6.83, -16.34],
+             [6.83, -16.43],
+             [6.24, -16.43]
+           ]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "id": "36",
+         "name": "Saratoga（サラトガ号）",
+         "description": "",
+         "style": {
+           "fillColor": "#DF1C44",
+           "fillOpacity": 0.3,
+           "color": "#DF1C44",
+           "weight": 2,
+           "opacity": 0.7
+         }
+       },
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [
+             [6.08, -16.25],
+             [6.49, -16.25],
+             [6.49, -16.33],
+             [6.08, -16.33]
+           ]
+         ]
+       }
+     }
+   ]
+ }
